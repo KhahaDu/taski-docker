@@ -9,7 +9,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split()
-['localhost', '127.0.0.1', '51.250.30.114', 'easytaskmanager.ddns.net']
 
 
 # Application definition
